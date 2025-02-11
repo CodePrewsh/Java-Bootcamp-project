@@ -44,9 +44,9 @@ public class AuthService {
         }catch (Exception e) {
             return new AuthResponse("Something went wrong");
         }
-        String token = jwtService.generateToken(user);
 
-        return new AuthResponse("Account created successfully",token, user);
+
+        return new AuthResponse("Account created successfully", user);
     }
 
     public AuthResponse login(User request) {
