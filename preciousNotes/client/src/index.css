@@ -10,7 +10,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
-  background: radial-gradient(circle, #e3d7ff, #b699ff);
+  background: radial-gradient(circle, #e3d7ff, #5f2a7f);
   color: #1a1a1a;
   overflow-y: auto;
   line-height: 1.6;
@@ -18,13 +18,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #8000ff;
+  color: #d4af37;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #4d0099;
+  color: #9c7c28;
 }
 
 p {
@@ -42,7 +42,7 @@ li {
 
 h1, h2, h3 {
   font-weight: 700;
-  color: #4a0072;
+  color: #2e004f;
   margin-bottom: 0.5em;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3 {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background: linear-gradient(45deg, #8000ff, #aa80ff);
+  background: linear-gradient(45deg, #5f2a7f, #d4af37);
   color: #ffffff;
   border-radius: 10px;
 }
@@ -93,7 +93,7 @@ h1, h2, h3 {
 
 .heading h1 {
   font-size: 3rem;
-  color: #8000ff;
+  color: #5f2a7f;
   margin-bottom: 10px;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3 {
   top: 10px;
   right: 10px;
   background: transparent;
-  color: #8000ff;
+  color: #5f2a7f;
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
@@ -136,7 +136,7 @@ h1, h2, h3 {
 }
 
 .goal .close:hover {
-  color: #4d0099;
+  color: #9c7c28;
 }
 
 .form {
@@ -166,13 +166,13 @@ h1, h2, h3 {
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-  border-color: #8000ff;
+  border-color: #5f2a7f;
   outline: none;
 }
 
 .btn {
   display: inline-block;
-  background: #8000ff;
+  background: #5f2a7f;
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 8px;
@@ -183,18 +183,18 @@ h1, h2, h3 {
 }
 
 .btn:hover {
-  background: #4d0099;
+  background: #9c7c28;
   transform: translateY(-2px);
 }
 
 .btn-reverse {
   background: transparent;
-  color: #8000ff;
-  border: 2px solid #8000ff;
+  color: #5f2a7f;
+  border: 2px solid #5f2a7f;
 }
 
 .btn-reverse:hover {
-  background: #8000ff;
+  background: #5f2a7f;
   color: #ffffff;
 }
 
@@ -214,7 +214,7 @@ h1, h2, h3 {
 .loadingSpinner {
   width: 50px;
   height: 50px;
-  border: 5px solid #8000ff;
+  border: 5px solid #5f2a7f;
   border-top: 5px solid transparent;
   border-radius: 50%;
   animation: spin 1s linear infinite;
